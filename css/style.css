@@ -1,0 +1,29 @@
+body{
+  background-image: url("../img/pen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-blend-mode: lighten;
+}
+
+.container {
+    color: black;
+    width: 50%;
+    margin: 50px auto;
+}
+
+ th {
+    text-align: center;
+}
+
+ td {
+    text-align: center;
+}
+ 
+table.table-bordered> thead > tr > th{
+  border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+  border:1px solid black;
+}
